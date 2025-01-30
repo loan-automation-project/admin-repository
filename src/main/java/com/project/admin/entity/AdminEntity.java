@@ -31,6 +31,40 @@ public class AdminEntity {
 	
 	@Column(name="approved_loans")
 	private int approvedLoans;
+
+	public Long getAdminId() {
+		return adminId;
+	}
+
+	public void setAdminId(Long adminId) {
+		this.adminId = adminId;
+	}
+
+	public String getAdminName() {
+		return adminName;
+	}
+
+	public void setAdminName(String adminName) {
+		this.adminName = adminName;
+	}
+
+	public String getAdminStatus() {
+		return adminStatus;
+	}
+
+	public void setAdminStatus(String adminStatus) {
+		this.adminStatus = adminStatus;
+	}
+
+	public int getApprovedLoans() {
+		return approvedLoans;
+	}
+
+	public void setApprovedLoans(int approvedLoans) {
+		this.approvedLoans = approvedLoans;
+	}
+	
+	
 	
 	
 }
